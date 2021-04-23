@@ -1,0 +1,99 @@
+
+        form {
+            display: flex;
+        }
+        .space {
+            margin-left: 40px;
+        }
+        .save {
+            margin-top: 3px;
+            margin-left: 100px;
+        }
+        .my-container {
+            background-color: #dddddd;
+            padding: 50px;
+            margin-bottom: 50px;
+        }
+        .fullname {
+            margin-left: 20px;
+        }
+        input[type=text],
+        input[type=number],
+        option[type=text] {
+           width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type=submit] {
+            margin-top: 20px;
+            background-color: blue;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border-radius: 4px;
+            cursor: pointer;
+            border: none;
+            text-align: center;
+        }
+        input[type=radio] {
+            margin-top: 23px;
+        }
+        /*body > table{
+    width: 80%;
+    display: flex;
+}
+table{
+    border-collapse: collapse;
+}
+table.list{
+    width: 100%;
+    margin-top: 29px;
+    background-color: lightblue;
+}
+td,th{
+    border: 1px solid lightblue;
+    text-align: center;
+    padding: 8px;
+}
+tr:nth-child(even),table.list thead>tr {
+    background-color: lightblue;
+}*/
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  background-color: lightblue;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+form div.form-action-buttons{
+    text-align: right;
+}
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+label.validation-error{
+    color: red;
+    margin-left: 5px;
+}
+.dropdown{
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            text-align: center;
+}

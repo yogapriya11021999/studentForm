@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container my-container">
+    <form onsubmit="event.preventDefault();onFormSubmit();return validation(); return validateform();" autocomplete="off" name="myform" >
+        <div class="fullname">
+            <label>Student Name:</label><br>
+            <input type="text" id="StudentName" name="StudentName"><br>
+        </div>
+        <div class="space">
+            <label>age:</label><br>
+            <input type="text" id="Age" name="Age"><br>
+        </div>
+        <div class="space">
+            <label>Branch:</label><br>
+            <select name="Branch" id="Branch" class="dropdown">
+                <option value="B.E">B.E</option>
+                <option value="ECE">ECE</option>
+                <option value="EEE">EEE</option>
+                <option value="CSE">CSE</option>
+                <option value="CIVIL">CIVIL</option>
+              </select>
+        </div>
+        <div class="space">
+            <label>Date of Joining:</label><br>
+            <input type="text" id="DateofJoining" name="DateofJoining"><br>
+        </div>
+        <div class="space">
+            <label>Phone Number:</label><br>
+            <input type="text" id="PhoneNumber"  name="PhoneNumber">
+            <span id="PhoneNumber"></span><br>
+        </div>
+        <div class="space">
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="Gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="Gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div class="save">
+            <input type="submit" value="Save">
+        </div>
+</div>
+</form>
+<td>
+    <table class="list" id="studentList">
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Age</th>
+                <th>Branch</th>
+                <th>Date of Joining</th>
+                <th>Phone Number</th>
+                <th>gender</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</td>
+</tr>
+</table>
+<script src="demo.js"></script>
+</body>
+</html>
